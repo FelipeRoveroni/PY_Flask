@@ -8,11 +8,22 @@
           </div>
           <div class="form-group">
             <label for="categoria">Categoria</label>
-            <input type="text" id="categoria" name="categoria" class="form-control">
+            <select id="categoria" name="categoria" class="form-control">
+              <option value="Ação">Ação</option>
+              <option value="RPG">Aventura</option>
+              <option value="Aventura">RPG</option>
+              <option value="FPS">FPS</option>
+              <option value="Estratégia">Estratégia</option>
+            </select>
           </div>
           <div class="form-group">
             <label for="console">Console</label>
-            <input type="text" id="console" name="console" class="form-control">
+            <select name="console" id="console" class="form-control">
+              <option value="PC"></option>
+              <option value="Console"></option>
+              <option value="Celular"></option>
+              <option value="Diversos"></option>
+            </select>
           </div>
           <button type="submit" class="btn btn-primary btn-salvar">Salvar</button>
         </fieldset>
